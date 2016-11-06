@@ -49,7 +49,6 @@ type  SimpleChaincode struct {
 //			  that element when reading a JSON object into the struct e.g. JSON make -> Struct Make.
 //==============================================================================================================================
 type Temperature struct {
-	V5cID  string `json:"v5cID"`
 	Temperature			string `json:"temperature"`
 }
 
